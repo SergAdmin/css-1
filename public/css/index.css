@@ -1,0 +1,172 @@
+/* Task 1 */
+:root {
+    background: rgb(214, 16, 16);
+}
+
+/* Task 2 */
+* {
+    color: black;
+}
+
+/* Task 3 */
+h1 {
+    color: blue;
+}
+
+/* Task 4 */
+.green {
+    color: green;
+}
+
+/* Task 5 */
+#blue {
+    color: blue;
+}
+
+/* Task 6 */
+div .box p {
+    background: red;
+}
+div .box {
+    background: green;
+}
+
+/* Task 7 */
+.brown {
+    background: brown;
+    color: white;
+}
+
+/* Task 8 */
+ul > li {
+    background: red;
+}
+
+/* Task 9 */
+button.header-button + * {
+    background: red;
+}
+
+/* Task 10 */
+.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+/* Task 11 */
+.salo, #bread {
+    background: yellow;
+}
+
+/* Task 2.1 */
+.first-task li:first-child {
+    color: white;
+}
+
+/* Task 2.2 */
+.second-task ul:first-child li:first-child {
+    color: yellow;
+}
+
+/* Task 2.3 */
+.third-task ul:last-child li:first-child {
+    color: yellow;
+}
+
+/* Task 2.4 */
+.four-task li:last-child {
+    color: yellow;
+}
+
+/* Task 2.5 */
+.five-task ul:last-child li:last-child {
+    color: white;
+}
+
+/* Task 2.6 */
+ section .only-child-task div:only-child {
+    color: red;
+}
+
+/* Task 2.7 */
+.seven-task span:first-of-type {
+    background: red;
+}
+
+/* Task 2.8 */
+.eight-task span:last-of-type {
+    background: red;
+}
+
+/* Task 2.9 */
+.nine-task p:only-of-type {
+    background: yellow;
+}
+
+/* Task 3.1 */
+.lesson-three-task-one *[href] {
+    color: white;
+}
+
+/* Task 3.2 */
+.lesson-three-task-two *[value] {
+    color: yellow;
+}
+
+/* Task 3.3 */
+.lesson-three-task-three *[value='3'] {
+    background: red;
+}
+
+/* Task 3.4 */
+.lesson-three-task-four button[class~='primary'] {
+    background: blue;
+}
+
+/* Task 3.5 */
+.lesson-three-task-five button[class|='secondary'] {
+    background: red;
+}
+
+/*Task 3.6 */
+.lesson-three-task-six li[class^='b'] {
+    background: green;
+    color: white;
+}
+
+/*Task 3.7 */
+.lesson-three-task-seven li[class*='on'] {
+    background: white;
+    color: green;
+}
+
+/*Task 3.8 */
+.lesson-three-task-eight span[class$='s'] {
+    background: red;
+}
+
+/*Task 3.9 */
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+/*Task 3.10 */
+.lesson-three-task-ten p::first-line {
+    background: yellow;
+}
+
+/*Task 3.11 */
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+
+/*Task 3.12 */
+.lesson-three-task-twelve li::before {
+    content: '➤';
+}
+
+/*Task 3.13 */
+.lesson-three-task-thirteen li::after {
+    content: '➤';
+}
+
